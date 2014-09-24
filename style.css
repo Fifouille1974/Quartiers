@@ -1,0 +1,101 @@
+/*  
+Theme Name: simply-news
+Theme URI: http://www.xhtmlvalid.com/2008/03/14/simply-news/
+Author: XHTMLValid.com
+Description: Find more free themes at <a href="http://www.xhtmlvalid.com">XHTMLValid.com</a>. Traduction <a href="http://www.niss.fr">(niss.fr)</a>.
+Version: 0.1
+Author URI: http://www.xhtmlvalid.com/
+*/
+body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;margin:0px;padding:0;background-color:#F0F0F0;}
+img {margin: 0px;border:0px;padding-right:5px;padding-bottom:5px;}
+#mainpage {background:url('images/mainbg.gif') repeat-y;background-color:#FFFFFF;width:900px;margin:0 auto;border:1px solid #620000;border-top:0px;border-bottom:0px;}
+h2 {font: 24px Tahoma;color:#000000;margin:0;padding:0;padding-left:10px;}
+h3 {font: 24px Tahoma;color:#000000;margin:0;padding:0;padding-left:10px;}
+h4 {font: 24px Tahoma;color:#000000;margin:0;padding:0;padding-left:10px;}
+.h2{font-family:Arial, Helvetica, sans-serif;line-height:18px;font-size:12px;color:#312E2E;font-weight:700;}
+a:link, a:visited, a:active{color:#000000;text-decoration:none;font-weight:bold;}
+a:hover{text-decoration:underline;}
+input {border:1px solid #303030;vertical-align: middle;}
+#menu {height:35px;width:900px;float:left;background:url('images/menubg.gif') repeat-x;}
+ul.menu{height:35px;line-height:35px;float:left;list-style:none;margin:0px;padding:0;}
+ul.menu li{float:left;list-style-type:none;margin:0;border-right:1px solid #000000;}
+ul.menu li a {float:left;font:12px Tahoma;color:#FFFFFF;text-transform:uppercase;padding-left:20px;padding-right:20px;line-height:35px;}
+ul.menu li a:hover {text-decoration:none;background:url('images/menuhover.gif') repeat-x;}
+ul.menu li:hover {}
+ul.menu li a:visited {color:#FFFFFF;font-weight:normal;}
+#header{float:left;height:151px;width:900px;padding:0;background:url('images/headerbg.gif') repeat-x;border-bottom:1px solid #620000;margin:0px;padding:0px;border-top:1px solid #000000;}
+#header h1 {margin:0px;font:47px Georgia;color:#FFFFFF;padding-top:20px;padding-left:20px;}
+#header h1 a {font-weight:normal;color:#FFFFFF;}
+#header h1 a:hover {text-decoration:none;}
+#header h2 {margin:0px;font:30px Georgia;color:#FFFFFF;padding-left:20px;}
+.info {float:left;width:226px;padding-left:6px;padding-top:10px;padding-bottom:10px;border-bottom:1px solid #620000;}
+.input {border:1px solid #A2A2A2;background:#F0F0F0;height:17px;width:142px;margin-top:1px;font:12px Tahoma;font-weight:normal;color:#000000;padding-top:3px;}
+.submit {border:0px;}
+.info img {float:left;margin:0px;padding:0px;margin-bottom:5px;}
+#content{font: 12px  Tahoma;color:#000000;float:left;width:638px;margin:0px;padding:0;padding-top:10px;overflow:hidden;padding-left:15px;padding-right:15px;}
+#content a {color:#000000;font-weight:normal;}
+.entry{float:left;width:638px;margin:0px;padding:0px;border-bottom:1px solid #620000;padding-bottom:10px;padding-top:10px;}
+.entry h2, h3{font: 24px Tahoma;color:#000000;margin:0px;padding:0;}
+.entry h2 a {text-decoration:none;color:#000000;margin:0;font-weight:normal;}
+.entry h2 a:hover{text-decoration:none;}
+.entry h3 a {text-decoration:none;color:#000000;margin:0;font-weight:normal;}
+.entry h3 a:hover{text-decoration:none;}
+.entry h4 {font: 12px  Tahoma;color:#000000;margin:0;padding:0;}
+.entry h4 a {text-decoration:none;color:#000000;font-weight:normal;margin:0;}
+#sidebar{float:left;width:232px;margin:0px;padding:0px;font: 11px Verdana;}
+.rsidebar{font: 13px  Verdana;color:#303030;float:right;width:202px;padding-left:15px;padding-right:15px;padding-top:10px;}
+.rsidebar h2{font: 18px Tahoma;color:#000000;margin-bottom:3px;padding:0;padding-left:4px;margin-top:10px;}
+.rsidebar a {font-weight:normal;}
+.rsidebar ul{list-style-type:none;margin:0;padding:0;}
+.rsidebar ul li{list-style-type:none;margin:0 0 0px;padding:0;padding-left:0px;}
+.rsidebar ul li ul{list-style-type:square;margin:0;padding:0 0px;}
+.rsidebar ul li ul li{list-style-type:none;border:0px none;margin:0;padding-left:4px;padding-right:4px;border-top:1px solid #BDBDBD;border-bottom:1px solid #EFEFEF;padding-top:3px;padding-bottom:3px;}
+.rsidebar ul li ul li a {font:12px Tahoma;font-weight:normal;color:#000000;line-height:23px;}
+.rsidebar ul li ul li a:hover {text-decoration:none;}
+.rsidebar ul li ul li:hover {background:#EDEDED;}
+.navigation{float:left;color:#303030;width:636px;margin:0px;padding:0px;margin-left:13px;margin-right:19px;padding-top:6px;}
+.navigation p {color:#303030;margin:0px;}
+.navigation a:hover {text-decoration:underline;}
+.alignright{float:right;margin-top:10px;}
+.alignleft{float:left;}
+.postmetadata{text-align:right;font: 12px  Verdana;color:#600320;margin:0;padding:0px;}
+.postmetadata a {color:#600320}
+.boxcomments{width:638px;}
+#commentform label{display:block;margin:0;}
+#commentform input{width:170px;margin:0 5px 10px 0;padding:1px;}
+#commentform textarea{width:400px;margin:0 0 10px;padding:0;}
+#commentform #submit{margin:0 0 0px;}
+#commentform p{margin:0px 0;}
+ol.commentlist{margin:0 0 1px;padding:0;}
+ol.commentlist li{display:block;list-style:none;margin:0;padding:0px 0px 1px;}
+ol.commentlist li :hover{background:none;}
+ol.commentlist li.commenthead{display:block;list-style:none;margin:0;padding:0px;}
+ol.commentlist li.commenthead h2{margin:0;}
+ol.tblist{border-top:1px solid #fff;list-style:none;margin:0 0 1px;padding:15px;}
+ol.tblist li{display:block;background:url('images/c.gif') no-repeat 0 2px;padding-left:15px;list-style-type:none; margin-left:0; margin-right:0; margin-top:0; margin-bottom:5px}
+#footer{color:#FFFFFF;clear:both;height:0px;margin:0;padding:0;}
+#footerbox{color:#FFFFFF;margin:0;padding:0;width:900px;height:36px;margin: 0 auto;margin-top:10px;background:url('images/footerbg.gif') repeat-x;}
+#footerbox p {color:#F1DCE3;margin:0px;font-size:11px;margin-top:0px;}
+.footer{text-align:center;width:900px;color:#F1DCE3;margin:0 auto;padding:0;}
+.footer a:hover{text-decoration:underline;border:none;}
+.footer a:link, .footer a:active, .footer a:visited {color:#FFFFFF;border:none;font-weight:normal;}
+.footer p {margin:0px;font:12px Tahoma;color:#FFFFFF;line-height:36px;}
+#calendar td a {background: #009900;}
+#calendar td {padding:5px;}
+.size-medium {margin:5px;}
+
+#post_content a {
+font-weight:bold; color:#009900;
+}
+ 
+#post_content a:hover {
+color:#009900;
+}
+
+.more {color:#000000;font-weight:normal;margin:0px;padding:0;
+}
+.more:hover {text-decoration:underline;color:#000000;
+}
+
+#flickr img { border: 5px solid #ffffff; margin: 7px; }
+#flickr { background:#009900; width:210px;}
